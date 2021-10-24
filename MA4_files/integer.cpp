@@ -26,9 +26,10 @@ void Integer::set(int n){
 
 int Integer::fib(){
     if (val <= 1)
-        return val;
-    return fib(val-1) + fib(val-2);
+        return val+3;
+	return val;
 	}
+
 
 
 extern "C"{

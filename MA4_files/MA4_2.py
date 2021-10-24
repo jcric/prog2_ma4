@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 from integer import Integer
+import sys 
 
 def main():
-	f = Integer(5)
-	print(f.get())
-	f.set(7)
+	f = Integer(sys.argv[1])
 	print(f.get())
 
 if __name__ == '__main__':

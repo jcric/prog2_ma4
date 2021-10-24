@@ -3,8 +3,10 @@
 from integer import Integer
 import sys 
 
+n = int(sys.argv[1])
+
 def main():
-	f = Integer(sys.argv[1])
+	f = Integer(n)
 	print(f.get())
 
 if __name__ == '__main__':

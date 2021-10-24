@@ -4,6 +4,7 @@ from integer import Integer
 import sys 
 from time import perf_counter as pc
 import matplotlib.pyplot as plt 
+plt.use("Agg")
 
 n = int(sys.argv[1])
     

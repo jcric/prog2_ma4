@@ -23,7 +23,7 @@ class Integer(object):
 		lib.Integer_set(self.obj, val)
 	
 	def fib(self, val):
-		return lib.Integer_fib(self.obj) #rätt? 
+		return lib.Integer_fib(self.obj, val) #rätt? 
         
 	def __del__(self):
 		return lib.Integer_delete(self.obj)

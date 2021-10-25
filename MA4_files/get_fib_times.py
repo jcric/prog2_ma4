@@ -16,6 +16,8 @@ for i in range(30, n):
     f.__del__()
     times.append(round(end-start, 4))
 
-for time in times:
+print(times)
+
+"""for time in times:
     results.write("%s\n" % time)
-results.close()
+results.close()"""

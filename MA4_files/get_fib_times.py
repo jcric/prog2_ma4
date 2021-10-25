@@ -9,8 +9,8 @@ results = open("fib_times.txt", "w")
 times = []
 
 for i in range(30, n):
-    start = pc()
     f = Integer(n)
+    start = pc()
     f.fib()
     end = pc()
     times.append(round(end-start, 4))

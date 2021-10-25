@@ -13,6 +13,7 @@ for i in range(30, n):
     start = pc()
     f.fib()
     end = pc()
+    f.__del__()
     times.append(round(end-start, 4))
 
 for time in times:

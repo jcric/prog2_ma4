@@ -6,15 +6,13 @@ from time import perf_counter as pc
 times = []
 
 for i in range(30, 46):
-    f = Integer(n)
+    f = Integer(i)
     start = pc()
     f.fib()
     end = pc()
-    print(i)
-    print(round(end-start, 4))
-    #times.append(round(end-start, 4))
+    times.append(round(end-start, 4))
 
 results = open("fib_times.txt", "w")
-"""for time in times:
+for time in times:
     results.write("%s\n" % time)
-results.close()"""
+results.close()

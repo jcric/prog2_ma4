@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 with open('fib_times.txt', 'r') as f:
-    times = [int(line.strip()) for line in f]
+    times = [float(line.strip()) for line in f]
 
 ns = [*range(30,46,1)]
 

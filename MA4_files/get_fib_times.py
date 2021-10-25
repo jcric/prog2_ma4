@@ -15,8 +15,6 @@ for i in range(30, n):
     end = pc()
     times.append(round(end-start, 4))
 
-print(times)
-
 for time in times:
     results.write("%s\n" % time)
 results.close()

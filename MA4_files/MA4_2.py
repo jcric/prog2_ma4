@@ -15,3 +15,5 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+"With n=47 the fib number is too long so it loops over to negatives!"
